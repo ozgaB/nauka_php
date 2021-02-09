@@ -1,6 +1,13 @@
 <?php
  session_start();
  ob_start();
+ if(isset($_GET['ref']))
+ {
+     $ref = filter_var($_GET['ref'], FILTER_SANITIZE_STRING);
+     if(!isset($_COOKIE['ref'])) //tylko raz
+     setcookie("ref", $ref, time()+60*60*24*30*3);
+     
+ }
  if(!isset($_SESSION['initiate']))     //regeneracja id sesji
  {
      session_regenerate_id();
@@ -10,7 +17,7 @@
      session_start();
      $_SESSION['initiate'] = 1;
  }
- 
+  
  /* $_COOKIE['ref']= "inna_wartosc";
  setcookie("ref", "inna_wartosc", time()+10);  ZMIANA WARTOSCI COOKIE*/
 ?>
@@ -77,7 +84,7 @@ function bladlogowania()
 if ($_SESSION['zalogowany'] == 0){
     ?>
 
-        <form action="sesja.php" method="post" enctype="multipart/formdata">
+        <form action="coockie.php" method="post" enctype="multipart/formdata">
             <div>
                 <div>
                     Login: <input type="text" name="login" maxlength="8" size="5">
@@ -104,8 +111,6 @@ if ($_SESSION['zalogowany'] == 0){
         </form>
   <?php
 }
-
-
 
 ob_end_flush();
 ?>
