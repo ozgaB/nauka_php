@@ -9,7 +9,7 @@
  * a - attach otwiera plik do zapisu; ustawia wskaznik na koniec pliku
  * a+ robi to co wyżej pozwala odczytywac
  */
-$plikA1 = "test.txt";
+/*$plikA1 = "test.txt";
 $wskaznik = @fopen($plikA1, "r+") or die("nie ma takiego pliku");
 //$tresc = fread($wskaznik, filesize($plikA1));
 //echo "<pre>".$tresc."</pre>";
@@ -20,13 +20,12 @@ if($linia == "nowak")
 }
 }
 */
-$licznik = (int)fread($wskaznik, filesize($plikA1));
-$licznik++;
-rewind($wskaznik);        //session wizyta pierwszy raz
-fwrite($wskaznik, $licznik);
+//$licznik = (int)fread($wskaznik, filesize($plikA1));
+//$licznik++;
+//rewind($wskaznik);        //session wizyta pierwszy raz
+//fwrite($wskaznik, $licznik);
 
-@fclose($plikA1);
-
+//@fclose($plikA1);
 
 
 ?>
