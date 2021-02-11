@@ -3,12 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/php_1/index.php</file>
+            <file>file:/C:/xampp/htdocs/php_1/system_post/odbierz.php</file>
+            <file>file:/C:/xampp/htdocs/php_1/zapytanie_do_bazy.php</file>
             <file>file:/C:/xampp/htdocs/php_1/klasy_ważne/class.czas.php</file>
-            <file>file:/C:/xampp/htdocs/php_1/permissioninterface.php</file>
-            <file>file:/C:/xampp/htdocs/php_1/guest.php</file>
-            <file>file:/C:/xampp/htdocs/php_1/user.php</file>
-            <file>file:/C:/xampp/htdocs/php_1/guestabstract.php</file>
+            <file>file:/C:/xampp/htdocs/php_1/lekcje/tablice_petle.php</file>
+            <file>file:/C:/xampp/htdocs/php_1/polaczeniezbaza.php</file>
             <file>file:/C:/xampp/htdocs/php_1/lekcje/systempermisji.php</file>
         </group>
     </open-files>
