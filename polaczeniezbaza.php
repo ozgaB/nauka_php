@@ -36,7 +36,60 @@ print_r($rezultat);
 
 
 
-
+/*SQL INJECTION
+ * 
+ * addslashes($_POST['haslo]) --raczej nie
+ * haslo = mysql_real_escape_string($_POST)
+ * 
+ * function clear(&$str)
+ * {
+ *          if(get_magic_Quotes_gpc())
+ *          $str = stripslashes($str)
+ * $str = msqli_real_escape_string($str)
+ * return $str;
+ * }
+ * $var = "haslo"
+ * $haslo = clear($_POST)
+ * 
+ *   //do sesji zapisujemy login id haslo przed zlamaniem
+ * 
+ * 
+ * XSS
+ *     jesli musimy zapisac do bazy string a tam jakis skrypt
+ * to  $var = filter_var("",FILTER_SANITIZE_STRING) //  jednak przy zapisie tylko clear a przy odczycie filter
+ * jesli wartosci int to rzutowanie do int
+ * 
+ * 
+ * 
+ * jeśli kod html
+ * html purifier
+ * wrzucamy do katalogu
+ * quick install  sql injection 27:35
+ * 
+ * 
+ * 
+ * wczytanie danych z pliku    $query = LOAD DATA LOCAL INFILE 'data.txt INTO TABLE test FIELD TRMINATED BY ',' LINES TERMINATED  BY '/n' (x,y,z)
+ * 
+ * optymalizacja indeksów
+ * jesli wiemy ze id jest unikalne to inedx uniqe
+ * szukaj po indeksie wybiieranie jak najmniej pól
+ * by przyspieszyc index index limit 1
+ * 
+ * index złożony 2 kolumny wiecej jeszcze szybciej
+ * jeśli login i haslo wyszukujemy bardzo czesto to nałożyć indeks złożony
+ * spowalniamy inne kwerendy   jeśli mamy wiecej zapytań to nakładamy inddeksy
+ * wystarczy sam login
+ * 
+ * value="<?php if (isset($_POST['']; else echo "" ?>      --by zapamietalo to co wyszukujemy 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
 
 
 
