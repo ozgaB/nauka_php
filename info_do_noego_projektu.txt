@@ -1,0 +1,20 @@
+stwórz własną strone z logowaniem po skończeniu forum lub mój sklep z streetwear
+skrypt masowego mailingu .php system potwierdzenia rejestracji
+time out po nieudanej próbie logowania 30 sekund
+sprawdzanie czy taki użytkownik jest już w bazie
+php+symfony
+flask
+offset do forum
+raiting postów ocena
+zresetuj haslo
+włamanie OR 1 =1
+filtrowanie po popularności i ocenie
+
+haslo utf_8_bin rozróżnianie
+oststnie logowanie aktywni 32:30 funkcje i aliasy kolumn
+
+można formatować przy pomocy sql NOW()
+
+hasła zabezpieczenie sha() + solenie wyszukaj
+
+full text index myisam
