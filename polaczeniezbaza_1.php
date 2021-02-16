@@ -87,20 +87,10 @@ print_r($rezultat);
  * 
  * 
  * 
- * //FUNKCJE SKALARNE MOŻNA WYSZUKAĆ W NECIE
- *   PROCEDURY
- * 
- * CALL pobierzzamowienia() -< to samo co w php   <-- do powtarzających się zapytań
- * 
- * 
  * 
  * 
  */
 
-    
-    
-    
-    
 
 
 

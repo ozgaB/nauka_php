@@ -5,10 +5,15 @@
         <group>
             <file>file:/C:/xampp/htdocs/php_1/system_post/odbierz.php</file>
             <file>file:/C:/xampp/htdocs/php_1/zapytanie_do_bazy.php</file>
+            <file>file:/C:/xampp/htdocs/php_1/index.php</file>
             <file>file:/C:/xampp/htdocs/php_1/klasy_ważne/class.czas.php</file>
             <file>file:/C:/xampp/htdocs/php_1/lekcje/tablice_petle.php</file>
+            <file>file:/C:/xampp/htdocs/php_1/wyszukiwarka_forum.php</file>
             <file>file:/C:/xampp/htdocs/php_1/polaczeniezbaza.php</file>
+            <file>file:/C:/xampp/htdocs/php_1/style.css</file>
+            <file>file:/C:/xampp/htdocs/php_1/system_get/start.php</file>
             <file>file:/C:/xampp/htdocs/php_1/lekcje/systempermisji.php</file>
+            <file>file:/C:/xampp/htdocs/php_1/polaczeniezbaza_1.php</file>
         </group>
     </open-files>
 </project-private>
